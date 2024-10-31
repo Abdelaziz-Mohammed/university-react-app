@@ -1,0 +1,42 @@
+.campus {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.campus .gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+}
+@media (max-width: 992px) {
+    .campus .gallery {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+}
+@media (max-width: 512px) {
+    .campus .gallery {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+}
+.campus .gallery img {
+    width: 100%;
+    border-radius: 12px;
+}
+.campus button {
+    color: white !important;
+    background-color: var(--main-color) !important;
+}
+.campus button img {
+    width: 20px;
+    margin-left: 10px;
+}
+.campus button:hover img {
+    animation: arrow-shake 0.7s linear infinite forwards;
+}

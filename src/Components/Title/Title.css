@@ -1,0 +1,18 @@
+.title {
+    width: 100%;
+    margin: 80px auto;
+    text-align: center;
+}
+.title p {
+    color: #212ea0;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+.title h2 {
+    font-size: 35px;
+    color: #000f38;
+    font-weight: bold;
+    margin-top: -3px;
+}

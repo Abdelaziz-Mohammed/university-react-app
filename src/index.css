@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+:root {
+    --main-color: #212EA0;
+    --body-bg-color: #F5F5F5;
+}
+body {
+    background-color: var(--body-bg-color);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+/* general styling */
+.custom-btn {
+    color: #212121 !important;
+    background-color: white !important;
+    padding: 14px 25px !important;
+    font: 16px !important;
+    border-radius: 30px !important;
+    border: 0 !important;
+    outline: 0 !important;
+    cursor: pointer !important;
+}
+/* arrow shake animation */
+@keyframes arrow-shake {
+    to {
+        transform: translateX(10px);
+    }
+}
